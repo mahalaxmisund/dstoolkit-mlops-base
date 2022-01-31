@@ -9,7 +9,7 @@ variables:
   ENVIRONMENT: DEV
   RESOURCE_GROUP: rg-mlops-mahi-dev-001
   LOCATION: southcentralus
-  NAMESPACE: mlopsdevtmpl
+  NAMESPACE: mlopsmahidevtmpl
   SERVICECONNECTION_RG: conn-mlops-sub-infra
   SERVICECONNECTION_WS: conn-mlops-aml-bsc-dev-tmpl
   AMLWORKSPACE: aml$(NAMESPACE)
