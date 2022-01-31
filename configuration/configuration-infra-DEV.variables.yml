@@ -7,7 +7,7 @@ variables:
 
   # DEV Environment
   ENVIRONMENT: DEV
-  RESOURCE_GROUP: rg-mlops-template-dev-001
+  RESOURCE_GROUP: rg-mlops-mahi-dev-001
   LOCATION: southcentralus
   NAMESPACE: mlopsdevtmpl
   SERVICECONNECTION_RG: conn-mlops-sub-infra
