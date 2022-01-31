@@ -7,9 +7,9 @@ variables:
 
   # PRD Environment
   ENVIRONMENT: PRD
-  RESOURCE_GROUP: rg-mlops-template-prod-001
-  LOCATION: westeurope
-  NAMESPACE: mlopsprodtmpl
+  RESOURCE_GROUP: rg-mlops-mahi-prod-001
+  LOCATION: southcentralus
+  NAMESPACE: mlopsmahiprodtmpl
   AMLWORKSPACE: aml$(NAMESPACE)
   STORAGEACCOUNT: sa$(NAMESPACE)
   KEYVAULT: kv$(NAMESPACE)
